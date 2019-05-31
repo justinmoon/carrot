@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 
 
 function openWebSocket() {
-	var ws = new WebSocket("ws://localhost:5001");
+	var ws = new WebSocket("ws://localhost:6000");
 
 	ws.onopen = function () {
 		// Web Socket is connected, send data using send()
